@@ -1,0 +1,27 @@
+.our_exp_container{
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes_container{
+    display: flex;
+    gap: 5px;
+}
+
+.box1, .box2, .box3{
+    border-radius: 10px;
+}
+
+.box1{
+    flex-basis: 20%;
+}
+
+.box2{
+    flex-basis: 50%;
+}
+
+.box3{
+    flex-basis: 30%;
+}
