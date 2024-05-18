@@ -1,0 +1,33 @@
+.hero-main img{
+    width: 100%;
+    height: 100%;
+}
+
+.text{
+    text-align: center;
+    position: relative;
+    top: -40rem;
+    /* font-family: monospace, margaret; */
+    font-weight: bold;
+    font-size: 48px;
+    color: #1F4B43;
+}
+
+.sub-text{
+    text-align: center;
+    position: relative;
+    top: -40rem;
+    /* font-family: monospace, margaret; */
+    /* font-weight: bold; */
+    font-size: 13px;
+    color: #35384B;
+}
+
+.buttons Button{
+    text-align: center;
+    position: relative;
+    top: -40rem;
+    flex-direction: row;
+    gap: 15px;
+    
+}

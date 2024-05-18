@@ -11,7 +11,7 @@ const Button = ({ onClick, btnName, type = 'button', className = '', outline = f
         disabled={disabled}
         >
         {btnName}
-        </button>
+    </button>
     );
 };
 

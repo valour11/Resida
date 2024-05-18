@@ -23,12 +23,39 @@
     gap: 30px;
 }
 
-.nav ul li{
+.nav ul li a{
     list-style: none;
     color: #1F4B43;
-    font-size: 16px;
+    font-size: 12px;
+}
+
+.menu{
+    display: none;
 }
 
 @media(max-width: 768px) {
-    
+
+    .nav ul li a{
+        display: none;
+    }
+
+.main-header{
+    margin: 0 10px;
+    margin-left: 3px;
+    justify-content: space-between;
+    padding: 0;
+    display: flex;
+    gap: 35px;
+}
+
+.nav{
+    width: 100%;
+    flex-direction: row;
+    gap: 0px;
+    padding-right: 5px;
+}
+.menu{
+    display: block;
+    padding-left: 10px;
+}
 }
