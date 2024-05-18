@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Header from './shared/Header/Header'
-import OurExperience from './components/ourExperience'
+import Hero from '../components/Hero-section/Hero'
+// import OurExperience from './components/ourExperience'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,7 +9,8 @@ function App() {
   return (
     <>
       <Header/>
-      <OurExperience/>
+      <Hero/>
+      {/* <OurExperience/> */}
     </>
   )
 }
