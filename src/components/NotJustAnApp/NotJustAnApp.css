@@ -4,8 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: 15rem; */
-    /* padding: 40px; */
     justify-content: space-around;
 }
 
@@ -16,9 +14,9 @@
 }
 
 .justApp_img img{
-    width: 200px;
+    width: 210px;
     height: auto;
-    margin-left: 9rem;
+    margin-left: 13rem;
     
 }
 

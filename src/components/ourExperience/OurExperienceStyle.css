@@ -1,16 +1,17 @@
 .our_exp_container{
-    border: solid 1px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .boxes_container{
+    margin-left: 50px;
     display: flex;
     gap: 5px;
     height: 235px;
-    padding: 0 10px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .boxes_container, text{
@@ -19,33 +20,32 @@
 
 .box1, .box2, .box3{
     border-radius: 10px;
-    height: 60%;
+    height: 50%;
 }
 
 .box1{
-    flex-basis: 26%;
+    flex-basis: 25%;
 }
 
 .box2{
-    flex-basis: 39%;
+    flex-basis: 40%;
 }
 
 .box3{
     flex-basis: 35%;
 }
 
-.box1 img, .box2 img .box3 img{
+.box1 img, .box2 img, .box3 img{
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
 
-.texts{
-    padding-left: 0rem;
+.oe_texts{
     font-weight: bold;
-    font-size: 25px;
-    text-align: center;
+    font-size: 19px;
     color: #1F4B43;
+    margin-right: 20px;
 
 }
 
@@ -90,5 +90,4 @@
     height: 100%;
     overflow: hidden;
 }
-
 }

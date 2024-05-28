@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Header from './shared/Header/Header'
 import Hero from './components/Hero-section/Hero'
-// import OurExperience from './components/ourExperience'
+import OurExperience from './components/ourExperience'
 import SubHero from './components/sub-hero-section/subHero'
 import NotJustAnApp from './components/NotJustAnApp/NotJustAnApp'
 // import FeaturedCard from './components/Featured card/FeaturedCard'
@@ -16,7 +16,7 @@ function App() {
       <SubHero/>
       <NotJustAnApp/>
       {/* <FeaturedCard/> */}
-      {/* <OurExperience/> */}
+      <OurExperience/>
     </>
   )
 }
