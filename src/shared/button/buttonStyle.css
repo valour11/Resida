@@ -1,10 +1,17 @@
 .custom-button{
-        padding: 12px;
+        padding: 10px;
         border: 1px solid #1F4B43;
         border-radius: 10px;
         border-bottom-left-radius: 0;
-        font-size: 12px;
+        font-size: 10px;
         cursor: pointer;
         background-color: #fff;
         color: #1F4B43;
+}
+
+@media(max-width: 786px){
+        .custom-button{
+                padding: 8px;
+                font-size: 8px;
+        }
 }

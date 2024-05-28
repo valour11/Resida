@@ -14,8 +14,12 @@ const Hero = () => {
           residence <span>-zero agent fee, middle men payment and hassles</span></h2>
         </div>
         <div className='buttons'>
-          <Button btnName="Download App" outline />
-          <Button btnName="Learn More" outline />
+          <div>
+            <Button btnName="Download App" outline />
+          </div>
+          <div>
+            <Button btnName="Learn More" outline />
+          </div>
         </div>
     </div>
   )

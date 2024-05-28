@@ -9,7 +9,7 @@ const Header = () => {
       <div className='main-header'>
         {/* menu */}
         <div className='menu'>
-          <MdOutlineMenuOpen color='#1f4b43' size={30}/>
+          <MdOutlineMenuOpen color='#1f4b43' size={20}/>
         </div>
         <div className='logo'>
           <svg width="123" height="25" viewBox="0 0 123 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/Xlink">

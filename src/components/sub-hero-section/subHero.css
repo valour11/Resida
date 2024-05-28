@@ -1,0 +1,16 @@
+.container{
+    background-color: #1F4B43;
+    height: 150px;
+    color: #fff;
+    display: flex;
+    gap: 12rem;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.container p{
+    font-size: small;
+    padding-top: 5px;
+    color: #ece5e9;
+}
+
