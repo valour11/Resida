@@ -15,8 +15,6 @@ const Button = ({ onClick, btnName, type = 'button', className = '', outline = f
     );
 };
 
-
-
 Button.propTypes = {
     onClick: PropTypes.func,
     btnName: PropTypes.string.isRequired,

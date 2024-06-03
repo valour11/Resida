@@ -1,0 +1,36 @@
+
+.background-img img{
+    width: 100%;
+    height: auto;
+}
+
+.dream_container{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 112rem;
+    
+}
+
+.dream_text h2{
+    color: #f5f6f6;
+    font-size: 25px;
+    margin-right: 13rem;
+    font-weight: bolder;
+}
+
+span{
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.dream_img img{
+    width: 400px;
+    height: auto;
+    margin-left: 12rem;
+    
+}
+

@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     background-color: orange;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .onfo-inner-container{
@@ -10,7 +10,7 @@
     max-width: 75%;
     margin: 0px auto;
     display: grid;
-    grid-template-columns: repeat(1fr, 2);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 8px;
 }
 

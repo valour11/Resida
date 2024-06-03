@@ -1,12 +1,16 @@
-.hero-main img{
+.hero-bg img{
     width: 100%;
     height: 100%;
 }
 
+.text-container{
+    position: absolute;
+    bottom: 15rem;
+    margin: 0 200px;
+}
+
 .text{
     text-align: center;
-    position: relative;
-    top: -40rem;
     /* font-family: monospace, margaret; */
     font-weight: bold;
     font-size: 48px;
@@ -14,9 +18,8 @@
 }
 
 .sub-text{
+    margin-top: 15px;
     text-align: center;
-    position: relative;
-    top: -39rem;
     font-family: sans-serif;
     /* font-weight: bold; */
     font-size: 12px;
@@ -24,8 +27,7 @@
 }
 
 .buttons{
-    position: relative;
-    top: -38rem;
+    margin-top: 30px;
     display: flex;
     gap: 15px;
     align-items: center;
