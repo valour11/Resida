@@ -9,7 +9,8 @@ import DreamHome from './components/yourDreamHome/dreamHome'
 // import FeaturedCard from './components/Featured card/FeaturedCard'
 import justApp from './assets/not-just-an-app-img.png'
 import GuideImage from './assets/comprehensive-img.png'
-import Button from './shared/button/Button'
+import FeaturedProp from './components/FeaturedProperties/FeaturedProp'
+// import Button from './shared/button/Button'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <Header/>
       <Hero/>
       <SubHero/>
+
       {/* not just an app section */}
       <NotJustAnApp 
       image= {justApp}
@@ -29,7 +31,7 @@ function App() {
       button={'justApp-button'}
       textStyle={'justApp_text'}
       />
-      {/* <FeaturedCard/> */}
+      
       <OurExperience/>
       <DreamHome/>
 
@@ -42,8 +44,9 @@ function App() {
       imageStyle={"guide_img img"}
       button={'guide-button'}
       textStyle={'guide_text'}
-      
       />
+      <FeaturedProp/>
+      {/* <FeaturedCard/> */}
     </>
   )
 }

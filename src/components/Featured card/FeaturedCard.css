@@ -1,0 +1,28 @@
+
+
+/* featured card styling */
+.img_title{
+    margin-top: 10px;
+    display: flex;
+    gap: 125px;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+}
+
+.housing_types{
+    margin-top: 5px;
+    display: flex;
+    gap: 5px;
+    
+}
+.housing_types span{
+    background-color: #dedede;
+    padding: 5px;
+    border-radius: 5px;
+}
+.featured_text{
+    margin-top: 20px;
+    font-size: 13px;
+    color: #909090;
+}

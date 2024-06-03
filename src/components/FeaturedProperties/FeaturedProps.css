@@ -1,0 +1,33 @@
+.card_container{
+    border: solid red;
+    height: 799px;
+}
+
+.inner_container{
+    border: solid blue;
+    margin: 70px 50px;
+}
+
+.title{
+    text-align: center;
+    font-size: 16px;
+}
+.title h1{
+    font-size: 38px;
+    font-weight: bold;
+    color: #1F4B43;
+    margin-bottom: 25px;
+}
+
+.image_container{
+    border: solid rgb(192, 44, 192);
+    margin-top: 60px ;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_container img{
+    width: 300px;
+}
