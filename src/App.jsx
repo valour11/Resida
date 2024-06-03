@@ -11,6 +11,7 @@ import justApp from './assets/not-just-an-app-img.png'
 import GuideImage from './assets/comprehensive-img.png'
 import FeaturedProp from './components/FeaturedProperties/FeaturedProp'
 import Property from './components/haveAproperty-section/Property'
+import Discover from './components/discover-section/Discover'
 // import Button from './shared/button/Button'
 
 function App() {
@@ -20,7 +21,9 @@ function App() {
     <>
       <Header/>
       <Hero/>
-      <SubHero/>
+      <SubHero
+      headingText="Resida nullifies the hassles of agents"
+      />
 
       {/* not just an app section */}
       <NotJustAnApp 
@@ -49,6 +52,7 @@ function App() {
       <FeaturedProp/>
       {/* <FeaturedCard/> */}
       <Property/>
+      <Discover/>
     </>
   )
 }
