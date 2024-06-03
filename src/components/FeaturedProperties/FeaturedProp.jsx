@@ -19,21 +19,27 @@ const FeaturedProp = () => {
                     <img src={image1} alt="" />
                     <FeaturedCard
                     title="Lillian Pepple Estate"
-                    // housingTypes={}
+                    type1="Duplexes"
+                    type2="Bungalows"
+                    type3="Self-Contains"
                     featuredText="From NGN1,500,000/year"/>
                 </figure>
                 <figure>
                     <img src={image2} alt="" />
                     <FeaturedCard
                     title="Horeb Accomodations"
-                    // housingTypes={}
+                    type1="3 Bedroom Flats"
+                    type2="Bungalows"
+                    type3="Student's Accomodations"
                     featuredText="From NGN2,500,000/year"/>
                 </figure>
                 <figure>
                     <img src={image3} alt="" />
                     <FeaturedCard
                     title="Naanchin Homes"
-                    // housingTypes={}
+                    type1="Mansions"
+                    type2="Bungalows"
+                    type3="Office Spaces"
                     featuredText="From NGN500,000/year"/>
                 </figure>
             

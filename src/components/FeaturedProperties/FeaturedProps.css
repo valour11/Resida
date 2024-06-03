@@ -1,16 +1,15 @@
 .card_container{
-    border: solid red;
     height: 799px;
 }
 
 .inner_container{
-    border: solid blue;
-    margin: 70px 50px;
+    margin: 100px 50px;
 }
 
 .title{
     text-align: center;
     font-size: 16px;
+    color: #272429;
 }
 .title h1{
     font-size: 38px;
@@ -20,7 +19,6 @@
 }
 
 .image_container{
-    border: solid rgb(192, 44, 192);
     margin-top: 60px ;
     display: flex;
     gap: 30px;

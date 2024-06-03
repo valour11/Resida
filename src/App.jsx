@@ -10,6 +10,7 @@ import DreamHome from './components/yourDreamHome/dreamHome'
 import justApp from './assets/not-just-an-app-img.png'
 import GuideImage from './assets/comprehensive-img.png'
 import FeaturedProp from './components/FeaturedProperties/FeaturedProp'
+import Property from './components/haveAproperty-section/Property'
 // import Button from './shared/button/Button'
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
       />
       <FeaturedProp/>
       {/* <FeaturedCard/> */}
+      <Property/>
     </>
   )
 }

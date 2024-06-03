@@ -2,7 +2,7 @@ import React from 'react'
 import './FeaturedCard.css'
 import { IoIosHeart } from "react-icons/io";
 
-const FeaturedCard = ({title, housingTypes, featuredText}) => {
+const FeaturedCard = ({title, featuredText, type1, type2, type3}) => {
   return (
     <div>
         <div className='img_title'>
@@ -10,9 +10,9 @@ const FeaturedCard = ({title, housingTypes, featuredText}) => {
             <IoIosHeart /> 
         </div>
         <div className='housing_types'>
-            <span>Dulexes</span>
-            <span>Bungalows</span>
-            <span>Self-contains</span>
+            <span>{type1}</span>
+            <span>{type2}</span>
+            <span>{type3}</span>
         </div>
         <p className='featured_text'>{featuredText}</p>
     </div>

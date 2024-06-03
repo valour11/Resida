@@ -22,7 +22,6 @@ const DreamHome = ({title, subTitle}) => {
                     <Button btnName="Download our App" outline />
                     </div>
             </div>
-            
         </div>
     </div>
   )

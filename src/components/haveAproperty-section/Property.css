@@ -1,0 +1,51 @@
+.property_container{
+    height: 683px;
+}
+
+.property_inner_container{
+    margin-left: 200px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 60px;
+}
+
+.property_img_container{
+}
+
+.property_img_container img{
+    width: 600px;
+}
+
+.circle_image img{
+    width: 160px;
+    margin-top: 40px;
+}
+
+.property_text h2{
+    font-size: 45px;
+    margin-top: 20px;
+    color: #1F4B43;
+}
+
+.property_span{
+    font-size: 40px;
+    margin-right: 300px;
+    margin-top: 10px;
+    color: #1F4B43
+    
+    
+}
+
+.property_text p{
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 3rem;
+}
+
+.property_button Button{
+    margin-top: 20px;
+    width: 150px;
+    background-color: #DBA94D;
+    border: #DBA94D;
+    padding: 15px;
+}
