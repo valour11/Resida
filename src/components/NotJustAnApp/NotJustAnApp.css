@@ -1,6 +1,7 @@
 .section_container{
+    margin-top: 70px;
     width: 99.3%;
-    height: 300px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +10,7 @@
 
 .justApp_text{
     color: #1F4B43;
-    font-size: 16px;
+    font-size: 38px;
     margin-right: 14rem;
     margin-left: 8rem;
 }
@@ -17,25 +18,25 @@
 
 
 .justApp_img img{
-    width: 210px;
+    width: 400px;
     height: auto;
     margin-left: 13rem;
     
 }
 
 .justApp_text h3{
-    font-size: 15px;
-    margin-top: 10px;
+    font-size: 23px;
+    margin-top: 20px;
 }
 
 .justApp_text p{
-    font-size: 13px;
+    font-size: 16px;
     margin-top: 10px;
-    line-height: 1.6rem;
+    margin-right: 210px;
+    line-height: 2.5rem;
 }
 
 .justApp-button{
-    border: solid red;
     margin-top: 20px;
     visibility: hidden;
 }

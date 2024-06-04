@@ -12,6 +12,7 @@ import GuideImage from './assets/comprehensive-img.png'
 import FeaturedProp from './components/FeaturedProperties/FeaturedProp'
 import Property from './components/haveAproperty-section/Property'
 import Discover from './components/discover-section/Discover'
+import officeSpaceImage from './assets/officeSpace_img.png'
 // import Button from './shared/button/Button'
 
 function App() {
@@ -51,8 +52,24 @@ function App() {
       />
       <FeaturedProp/>
       {/* <FeaturedCard/> */}
+
+      {/* property section */}
       <Property/>
+
+      
       <Discover/>
+
+      {/* office space section */}
+      <NotJustAnApp 
+      image= {officeSpaceImage}
+      title="Need an office space?"
+      body= "Seeking office space in Lagos? Look no further! Our accommodations offer tailored solutions to meet your workspace needs, ensuring productivity and comfort in the heart of Lagos"
+      imageStyle={"justApp_img img"}
+      button={'justApp-button'}
+      textStyle={'justApp_text'}
+      />
+
+      {/* Download our App section */}
     </>
   )
 }
