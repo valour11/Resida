@@ -6,6 +6,7 @@
     margin-left: 200px;
     display: flex;
     justify-content: flex-end;
+    /* align-items: center; */
 }
 
 .property_img_container img{
@@ -60,7 +61,7 @@
 }
 
 .download_img_container img{
-    width: 500px;
+    width: 600px;
     margin-right: 100px;
 }
 

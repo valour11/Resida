@@ -17,6 +17,7 @@ import officeSpaceImage from './assets/officeSpace_img.png'
 import PropertyImage from './assets/property_img.png'
 import downloadAppImage from './assets/download_img.png'
 import circleImage from './assets/propertyCircles_img.png'
+import Footer from './shared/Footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -95,8 +96,9 @@ function App() {
       button={'download_button'}
       buttonsStyles={'download_buttons_container'}
       textstyles={'download_text'}
-      
       />
+
+      <Footer/>
     </>
   )
 }
