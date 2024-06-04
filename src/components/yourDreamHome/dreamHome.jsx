@@ -18,7 +18,7 @@ const DreamHome = ({title, subTitle}) => {
             <div className='dream_text'>
                 <h2>Your dream home is only a <br />few clicks away <br />
                     <span>- Find your space now!</span></h2>
-                    <div>
+                    <div className='dream-button'>
                     <Button btnName="Download our App" outline />
                     </div>
             </div>

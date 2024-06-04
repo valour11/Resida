@@ -20,7 +20,7 @@ const OurExperience = () => {
             </div>
             <div className='oe_texts'>
                 Our Exeperience guarantees <br />
-                Unmatched Proficiency and <br />
+                Unmatched Proficiency and
                 Excellence
             </div>
         </div>

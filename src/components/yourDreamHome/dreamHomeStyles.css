@@ -1,25 +1,26 @@
 
 .background-img img{
+    margin-top: 50px;
     width: 100%;
     height: auto;
 }
 
 .dream_container{
-    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    top: 112rem;
+    top: 170rem;
+    gap: 50px;
     
 }
 
 .dream_text h2{
     color: #f5f6f6;
-    font-size: 25px;
+    font-size: 40px;
     margin-right: 13rem;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 span{
@@ -28,9 +29,66 @@ span{
 }
 
 .dream_img img{
-    width: 400px;
+    width: 550px;
     height: auto;
-    margin-left: 12rem;
+    margin-left: 15rem;
     
+}
+
+.dream-button Button{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 140px;
+    height: 45px;
+    font-size: 12px;
+}
+
+
+@media (max-width: 768px){
+
+    .background-img img{
+        margin-top: 40px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .dream_container{
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* justify-content: space-around; */
+        position: absolute;
+        top: 90rem;
+        gap: 10px;
+        
+    }
+    
+    .dream_text h2{
+        width: 100%;
+        color: #f5f6f6;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    span{
+        font-weight: lighter;
+        font-size: smaller;
+    }
+    
+    .dream_img img{
+        width: 160px;
+        height: auto;
+        margin-left: 1.5rem;
+        
+    }
+    
+    .dream-button Button{
+        margin-top: 10px;
+        border-radius: 5px;
+        width: 70px;
+        height: 20px;
+        font-size: 6px;
+        text-align: justify;
+    }
 }
 

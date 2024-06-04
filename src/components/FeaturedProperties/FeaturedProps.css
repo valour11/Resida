@@ -29,3 +29,38 @@
 .image_container img{
     width: 300px;
 }
+
+@media (max-width: 768px) {
+    .card_container{
+        height: 799px;
+    }
+    
+    .inner_container{
+        margin: 100px 50px;
+    }
+    
+    .title{
+        width: 26rem;
+        text-align: center;
+        font-size: 15px;
+        color: #272429;
+    }
+    .title h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: #1F4B43;
+        margin-bottom: 15px;
+    }
+    
+    .image_container{
+        margin-top: 30px ;
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .image_container img{
+        width: 300px;
+    }
+}

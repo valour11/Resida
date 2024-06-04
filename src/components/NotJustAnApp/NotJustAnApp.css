@@ -10,7 +10,7 @@
 
 .justApp_text{
     color: #1F4B43;
-    font-size: 38px;
+    font-size: 35px;
     margin-right: 14rem;
     margin-left: 8rem;
 }
@@ -18,9 +18,9 @@
 
 
 .justApp_img img{
-    width: 400px;
+    width: 350px;
     height: auto;
-    margin-left: 13rem;
+    margin-left: 20rem;
     
 }
 
@@ -51,31 +51,129 @@
 }
 
 .guide_text h3{
-    font-size: 22px;
+    font-size: 38px;
     margin-top: 10px;
 }
 
 .guide_img img{
-    width: 248px;
+    width: 370px;
     height: auto;
-    margin-left: 13rem;
+    margin-left: 20rem;
+    margin-top: -70px;
     
 }
 
 .guide_text p{
-    font-size: 13px;
-    margin-top: 10px;
-    line-height: 1.6rem;
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 2.2rem;
 }
 
 .guide_text h2{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: lighter;
 }
 
 .guide-button Button{
     margin-top: 20px;
-    width: 130px;
+    width: 170px;
+    height: 50px;
     background-color: #DBA94D;
     border: #DBA94D;
+    font-size: 16px;
+}
+
+
+@media (max-width: 768px) {
+    .section_container{
+        width: 98%;
+        max-height: 400px;
+        display: block;
+    }
+    
+    .justApp_text{
+        color: #1F4B43;
+        width: 380px;
+        margin-left: -1px ;
+    }
+    
+    .justApp_img img{
+        width: 230px;
+        height: auto;
+        margin-left: 5rem;
+        
+    }
+    
+    .justApp_text h2{
+        padding-left: 50px;
+        font-size: 25px;
+    }
+
+    .justApp_text h3{
+        font-size: 16px;
+        margin-top: 10px;
+        padding-left: 40px;
+    }
+    
+    .justApp_text p{
+        width: 100%;
+        font-size: 10px;
+        margin-top: 10px;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+    
+    .justApp-button{
+        margin-top: 20px;
+        visibility: hidden;
+    }
+}
+
+/* comprehensve guide responsive styling */
+@media (max-width: 768px){
+
+    .guide_text{
+        width: 95%;
+        color: #1F4B43;
+        font-size: 16px;
+        margin-right: 14rem;
+        margin-left: 1rem;
+        text-align: center;
+    }
+    
+    .guide_text h3{
+        width: 25rem;
+        font-size: 28px;
+        margin-top: 5px;
+        margin-left: 23px;
+        text-align: center;
+    }
+    
+    .guide_img img{
+        width: 250px;
+        height: auto;
+        margin-left: 6rem;
+        margin-top: -70px;
+        
+    }
+    
+    .guide_text p{
+        font-size: 16px;
+        margin-top: 10px;
+        line-height: 2.2rem;
+    }
+    
+    .guide_text h2{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    
+    .guide-button Button{
+        margin-top: 5px;
+        width: 100px;
+        height: 30px;
+        background-color: #DBA94D;
+        border: #DBA94D;
+        font-size: 10px;
+    }
 }

@@ -12,10 +12,10 @@ const Hero = () => {
         <div className='text-container'>
             <h2 className='text'>
               Finding the perfect home has <br /> never been this easy</h2>
-            <h2 className='sub-text'>Eliminate stressful house searches. we link you with the lagos finest and most affordable <br />
-            residence <span>-zero agent fee, middle men payment and hassles</span></h2>
+            <h2 className='sub-text'><span>Eliminate stressful house searches. we link you with the lagos finest and most affordable <br />
+            residence </span>-zero agent fee, middle men payment and hassles</h2>
             <div className='buttons'>
-              <div>
+              <div className='button1'>
                 <Button btnName="Download App" outline />
               </div>
               <div>

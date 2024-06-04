@@ -54,3 +54,69 @@
     text-decoration: underline;
     font-size: 17px;
 }
+
+@media (max-width: 768px){
+    .footer_container{
+        margin-top: 50px;
+        height: 200px;
+        background-color: #1F4B43;
+        color: #ffffff;
+        font-size: 10px;
+        padding: 20px 30px;
+        text-align: center;
+    }
+    
+    .section1_container{
+        display: block;
+        gap: 25px;
+    }
+    
+    .section1a{
+        line-height: 1.5rem;
+    }
+    
+    .section1a h1{
+        font-size: 18px;
+    }
+    
+    .social_icons img{
+        width: 120px;
+    }
+    
+    .services {
+        display: flex;
+        gap: 25px;
+        line-height: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .services p{
+        /* border: blue solid; */
+        text-align: left;
+    }
+    
+    .contact_address p{
+        margin-top: 10px;
+        font-size: 8px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .tick_line{
+        margin-top: 10px;
+        border-bottom: solid #dad7d7 1px;
+    }
+    
+    .copyright{
+        display: flex;
+        justify-content: space-between;
+        font-size: 8px;
+        margin-top: 5px;
+    }
+    .copyright a{
+        color: #ffffff;
+        text-decoration: underline;
+        font-size: 8px;
+    }
+}
