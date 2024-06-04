@@ -14,6 +14,9 @@ import Property from './components/haveAproperty-section/Property'
 import Discover from './components/discover-section/Discover'
 import officeSpaceImage from './assets/officeSpace_img.png'
 // import Button from './shared/button/Button'
+import PropertyImage from './assets/property_img.png'
+import downloadAppImage from './assets/download_img.png'
+import circleImage from './assets/propertyCircles_img.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -54,9 +57,21 @@ function App() {
       {/* <FeaturedCard/> */}
 
       {/* property section */}
-      <Property/>
+      <Property
+      circleImg={circleImage}
+      circleImageStyles={'circle_image'}
+      text="Do you have a property?"
+      subtext1="Provide accommodation here in Lagos"
+      subtext="Own a property in Lagos? Join our platform to effortlessly list your accommodations and connect with eager tenants seeking their perfect home in the vibrant city of Lagos."
+      image={PropertyImage}
+      ImageStyles={'property_img_container'}
+      button={'property_button'}
+      buttonsStyles={'property_buttons_container'}
+      textstyles={'property_text'}
 
-      
+      />
+
+
       <Discover/>
 
       {/* office space section */}
@@ -70,6 +85,18 @@ function App() {
       />
 
       {/* Download our App section */}
+      <Property
+      circleImg={circleImage}
+      circleImageStyles={'download_circle_image'}
+      text="Download our App"
+      subtext="With intuitive search features and a curated selection of properties tailored to your preferences, finding your dream home has never been easier. Join thousands of satisfied users who have unlocked the key to their ideal living space with just a tap."
+      image={downloadAppImage}
+      ImageStyles={'download_img_container'}
+      button={'download_button'}
+      buttonsStyles={'download_buttons_container'}
+      textstyles={'download_text'}
+      
+      />
     </>
   )
 }

@@ -1,15 +1,11 @@
 .property_container{
-    height: 683px;
+    height: 680px;
 }
 
 .property_inner_container{
     margin-left: 200px;
     display: flex;
     justify-content: flex-end;
-    gap: 60px;
-}
-
-.property_img_container{
 }
 
 .property_img_container img{
@@ -48,4 +44,58 @@
     background-color: #DBA94D;
     border: #DBA94D;
     padding: 15px;
+}
+
+.property_buttons_container{
+    visibility: hidden;
+}
+
+.property_button_items{
+    visibility: hidden;
+}
+
+/* download styles */
+.download_circle_image{
+    visibility: hidden;
+}
+
+.download_img_container img{
+    width: 500px;
+    margin-right: 100px;
+}
+
+.download_text h2{
+    margin-right: 400px;
+    font-size: 51px;
+    margin-top: 20px;
+    color: #1F4B43;
+}
+
+.download_text p{
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 2.5rem;
+    margin-right: 200px;
+}
+
+.download_button Button{
+    visibility: hidden;
+}
+
+.download_buttons_container{
+    display: flex;
+    gap: 30px;
+}
+
+.button_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F4B43;
+    border-radius: 12px;
+    padding: 14px;
+    width: 160px;
+    color: #fff;
+    font-size: 16px;
+    gap: 10px;
 }

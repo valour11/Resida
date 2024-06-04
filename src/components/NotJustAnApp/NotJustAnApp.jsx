@@ -23,4 +23,5 @@ const NotJustAnApp = ({image, title, subTitle, body, imageStyle, button, textSty
   )
 }
 
+
 export default NotJustAnApp
