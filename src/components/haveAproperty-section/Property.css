@@ -56,7 +56,99 @@
     visibility: hidden;
 }
 
+.property-tag img{
+    visibility: hidden;
+    width: 500px;
+}
+
+
+/* who we are styles */
+.property_container{
+    margin-top: -100px;
+    height: 680px;
+}
+.whowe_are_circle_image{
+    visibility: hidden;
+}
+
+.whowe_are_img_container img{
+    margin-top: 200px;
+    width: 400px;
+    margin-right: 100px;
+}
+
+.whowe_are_text h2{
+    font-size: 51px;
+    margin-top: 100px;
+    color: #1F4B43;
+}
+
+.whowe_are_text p{
+    max-width: 60rem;
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 2.5rem;
+    margin-right: 100px;
+}
+
+.whowe_are_button Button{
+    visibility: hidden;
+}
+
+.whowe_are-tag img{
+    margin-top: -150px;
+    width: 500px;
+}
+
+
+/* the man  */
+.theman_are_circle_image img{
+    width: 150px;
+    margin-top: 200px;
+}
+
+.theman_are_img_container img{
+    margin-top: 200px;
+    width: 400px;
+    margin-right: 100px;
+}
+
+.theman_are_text h2{
+    font-size: 40px;
+    margin-top: 50px;
+    color: #1F4B43;
+}
+
+.theman_are_text p{
+    max-width: 60rem;
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 2.5rem;
+    margin-right: 100px;
+}
+
+.theman_are_button Button{
+    visibility: hidden;
+}
+
+.theman_are-tag img{
+    visibility: hidden;
+    width: 1px;
+}
+
+.theman_buttons_container{
+    visibility: hidden;
+}
+
+
+
 /* download styles */
+
+.download-tag img{
+    visibility: hidden;
+    width: 500px;
+}
+
 .download_circle_image{
     visibility: hidden;
 }
@@ -102,6 +194,8 @@
     font-size: 16px;
     gap: 10px;
 }
+
+
 
 /* property mediaQuerry styling */
 @media (max-width: 768px) {

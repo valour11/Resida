@@ -5,9 +5,10 @@ import circleImage from '../../assets/propertyCircles_img.png'
 import Button from '../../shared/button/Button'
 import { FaApple } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa";
+import weTagImg from '../../assets/whoWeAre-tag.png'
 
 
-const Property = ({image, text, subtext, button, circleImg, subtext1, circleImageStyles, ImageStyles, buttonsStyles, textstyles}) => {
+const Property = ({image, text, subtext, button, circleImg, subtext1, circleImageStyles, ImageStyles, buttonsStyles, textstyles, weTag}) => {
   return (
     <div className='property_container'>
         <div className='property_inner_container'>
@@ -38,6 +39,12 @@ const Property = ({image, text, subtext, button, circleImg, subtext1, circleImag
                             <p>Google Play</p>
                         </div>
                     </div>
+                    <div className={weTag}>
+                        {/* <img src={weTagImg} alt="" /> */}
+                </div>
+                </div>
+                <div className={weTag}>
+                        <img src={weTagImg} alt="" />
                 </div>
             </div>
             <div className={ImageStyles}>

@@ -69,7 +69,7 @@ function App() {
       button={'property_button'}
       buttonsStyles={'property_buttons_container'}
       textstyles={'property_text'}
-
+      weTag={'property-tag'}
       />
 
 
@@ -96,8 +96,8 @@ function App() {
       button={'download_button'}
       buttonsStyles={'download_buttons_container'}
       textstyles={'download_text'}
+      weTag={'download-tag'}
       />
-
       <Footer/>
     </>
   )
