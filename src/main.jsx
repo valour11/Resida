@@ -6,7 +6,6 @@ import ReactDOM from 'react-dom/client'
 import LandingPage from './LandingPage.jsx'
 import Contact from './Contact.jsx'
 import AboutUs from './views/AboutUs/AboutUs.jsx'
-import { Link } from "react-router-dom";
 
 
 import {
