@@ -5,6 +5,8 @@ import circleImage from '../../assets/propertyCircles_img.png'
 import whoWeAreImage from '../../assets/whoWeAre_img.png'
 import Property from '../../components/haveAproperty-section/Property'
 import theManImg from '../../assets/the_man_img.png'
+// import FeaturedProp from '../../components/FeaturedProperties/FeaturedProp'
+import OurTeam from '../../components/AbouUs page/OurTeam'
 
 
 const AboutUs = () => {
@@ -41,6 +43,10 @@ const AboutUs = () => {
       weTag={'theman_are-tag'}
       />
 
+        {/* meet our team */}
+
+        <OurTeam/>
+        {/* <FeaturedProp/> */}
     {/* <AboutUsBody/> */}
     </>
   )

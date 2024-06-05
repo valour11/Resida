@@ -5,7 +5,7 @@ import image2 from '../../assets/featuredProp-img2.png'
 import image3 from '../../assets/featuredProp-img3.png'
 import FeaturedCard from '../../components/Featured card/FeaturedCard'
 
-const FeaturedProp = () => {
+const FeaturedProp = ({image1, image2, image3, }) => {
   return (
     <main className='card_container'>
         <div className='inner_container'>
@@ -42,7 +42,6 @@ const FeaturedProp = () => {
                     type3="Office Spaces"
                     featuredText="From NGN500,000/year"/>
                 </figure>
-            
             </section>
         </div>
     </main>
