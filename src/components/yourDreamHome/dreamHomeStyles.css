@@ -54,11 +54,8 @@ span{
     
     .dream_container{
         display: flex;
-        /* justify-content: center; */
-        /* align-items: center; */
-        /* justify-content: space-around; */
         position: absolute;
-        top: 90rem;
+        top: 80rem;
         gap: 10px;
         
     }

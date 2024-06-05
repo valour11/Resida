@@ -1,12 +1,12 @@
 import React from 'react'
-// import AboutUsBody from '../../components/AbouUs page/AboutUsBody'
 import Header from '../../shared/Header/Header'
 import circleImage from '../../assets/propertyCircles_img.png'
 import whoWeAreImage from '../../assets/whoWeAre_img.png'
 import Property from '../../components/haveAproperty-section/Property'
 import theManImg from '../../assets/the_man_img.png'
-// import FeaturedProp from '../../components/FeaturedProperties/FeaturedProp'
 import OurTeam from '../../components/AbouUs page/OurTeam'
+import LastSection from '../../components/Last-section/LastSection'
+import Footer from '../../shared/Footer/Footer'
 
 
 const AboutUs = () => {
@@ -44,10 +44,9 @@ const AboutUs = () => {
       />
 
         {/* meet our team */}
-
         <OurTeam/>
-        {/* <FeaturedProp/> */}
-    {/* <AboutUsBody/> */}
+        <LastSection/>
+        <Footer/>
     </>
   )
 }

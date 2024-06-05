@@ -19,7 +19,7 @@ import downloadAppImage from './assets/download_img.png'
 import circleImage from './assets/propertyCircles_img.png'
 import Footer from './shared/Footer/Footer'
 
-function App() {
+function LandingPage() {
   const [count, setCount] = useState(0)
 
   return (
@@ -103,4 +103,4 @@ function App() {
   )
 }
 
-export default App
+export default LandingPage

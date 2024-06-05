@@ -5,7 +5,7 @@ import image2 from '../../assets/featuredProp-img2.png'
 import image3 from '../../assets/featuredProp-img3.png'
 import FeaturedCard from '../../components/Featured card/FeaturedCard'
 
-const FeaturedProp = ({image1, image2, image3, }) => {
+const FeaturedProp = () => {
   return (
     <main className='card_container'>
         <div className='inner_container'>

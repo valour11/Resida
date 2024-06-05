@@ -1,18 +1,35 @@
+
+
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import { BrowserRouter } from 'react-router-dom'
+import LandingPage from './LandingPage.jsx'
 import Contact from './Contact.jsx'
 import AboutUs from './views/AboutUs/AboutUs.jsx'
-// import LandingPage from './LandingPage.jsx'
+import { Link } from "react-router-dom";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-  <BrowserRouter>
-    <App />
-    <Contact/>
-    <AboutUs/>
-    {/* <LandingPage/> */}
-  </BrowserRouter>
-  </React.StrictMode>,
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <LandingPage/>,
+  },
+  {
+    path: "/contact",
+    element: <Contact/>,
+  },
+  {
+    path: "/about",
+    element: <AboutUs/>,
+  },
+]);
+
+const root = ReactDOM.createRoot(document.getElementById('root')).render(
+
+  <RouterProvider router={router}/>
 )
