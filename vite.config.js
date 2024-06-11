@@ -13,6 +13,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: ['react-icons/md'], // Externalize react-icons/md
+      external: ['react-icons/fa'], //Externalize react-icons/fa
     },
   },
 });
