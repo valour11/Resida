@@ -1,7 +1,7 @@
 import React from 'react'
 import './ContactBody.css'
 import { MdOutlineEmail } from "react-icons/md";
-import { IoCallOutline } from "react-icons/io5";
+import { MdCall } from "react-icons/md";
 import { MdOutlineLocationOn } from "react-icons/md";
 
 const ContactBody = () => {
@@ -22,7 +22,7 @@ const ContactBody = () => {
                 <MdOutlineEmail /> gideonabel87@gmail.com
               </div>
               <div>
-              <IoCallOutline /> +234 7043456740
+              <MdCall /> +234 7043456740
               </div>
               <div>
               <MdOutlineLocationOn /> 794 Mcallister St San Francisco, 94102
