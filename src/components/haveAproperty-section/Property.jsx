@@ -1,10 +1,8 @@
 import React from 'react'
 import './Property.css'
-// import PropertyImage from '../../assets/property_img.png'
 import circleImage from '../../assets/propertyCircles_img.png'
 import Button from '../../shared/button/Button'
-import { FaApple } from "react-icons/fa";
-import { FaGooglePlay } from "react-icons/fa";
+import { FaApple, FaGooglePlay } from "react-icons/fa";
 import weTagImg from '../../assets/whoWeAre-tag.png'
 
 

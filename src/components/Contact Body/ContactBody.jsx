@@ -1,8 +1,6 @@
 import React from 'react'
 import './ContactBody.css'
-import { MdOutlineEmail } from "react-icons/md";
-import { MdCall } from "react-icons/md";
-import { MdOutlineLocationOn } from "react-icons/md";
+import { MdOutlineEmail, MdCall, MdOutlineLocationOn } from "react-icons/md";
 
 const ContactBody = () => {
   return (

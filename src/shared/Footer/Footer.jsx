@@ -1,10 +1,7 @@
 import React from 'react'
 import './FooterStyle.css'
 import socialIcons from '../../assets/footer_social_icons.png' 
-import { MdOutlineEmail } from "react-icons/md";
-import { MdCall } from "react-icons/md";
-import { MdOutlineLocationOn } from "react-icons/md";
-import { MdCopyright } from "react-icons/md";
+import { MdCall, MdCopyright, MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
 
 const Footer = () => {
   return (
